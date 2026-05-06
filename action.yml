@@ -1,0 +1,18 @@
+name: "Git History Health Analyzer"
+description: "Analyze repository git history health and engineering stability"
+
+author: "YOUR_NAME"
+
+inputs:
+  days:
+    description: "Number of days to analyze"
+    required: false
+    default: "30"
+
+runs:
+  using: "node20"
+  main: "dist/index.js"
+
+branding:
+  icon: "activity"
+  color: "blue"

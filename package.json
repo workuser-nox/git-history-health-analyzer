@@ -1,0 +1,30 @@
+{
+  "name": "git-history-health-analyzer",
+  "version": "1.0.0",
+  "description": "GitHub Action to analyze repository git history health",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build src/index.ts -o dist",
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "github-action",
+    "git",
+    "engineering",
+    "analytics",
+    "repository-health"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vercel/ncc": "^0.38.1",
+    "eslint": "^9.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.0"
+  }
+}
