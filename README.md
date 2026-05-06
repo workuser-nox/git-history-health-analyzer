@@ -29,7 +29,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: YOUR_USERNAME/git-history-health-analyzer@v1
+      - uses: workuser-nox/git-history-health-analyzer@v1
         with:
           days: 30
 ```

@@ -1,7 +1,7 @@
-name: "Git History Health Analyzer"
+name: "Git History Analyzer"
 description: "Analyze repository git history health and engineering stability"
 
-author: "YOUR_NAME"
+author: "workuser-nox"
 
 inputs:
   days:
